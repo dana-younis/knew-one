@@ -10,5 +10,36 @@ h1{display: inline;
   p{font-size: 30px;
     color: blue;
     margin:  10%;
+    background-color: rgb(247, 189, 189);
 
   }
+
+   ol li { list-style:upper-alpha;
+    font-size: 25px;
+    color:blue;
+    margin:  2%;
+  }
+   h2{
+    font-size: 30px;
+    color:blue;
+    background-color: rgb(247, 189, 189);
+    margin:  2%;
+   }
+
+
+   h3{ font-size: 30px;
+    color:blue;
+    margin:  2%;
+    background-color: rgb(247, 189, 189);
+
+   }
+
+
+
+   h4 ul li { font-size: 25px;
+    color:blue;
+    margin:  2%;
+    
+    list-style: square;
+
+   }
