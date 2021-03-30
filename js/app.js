@@ -8,7 +8,7 @@ let userName=prompt('what\'s your name?')
                 alert(userName    + age);
 
 
-let  ex = prompt('do you have software experience?');
+let  ex = prompt('do i have software experience?');
  ex=ex.toLowerCase();
 if (ex=="yes" || ex=="y") { 
    // console.log("good");}
@@ -18,7 +18,7 @@ else if (ex=="no"||ex=="n") {
    alert("dont worry");}
     
 
-let  web =prompt('do you prefer to design complex web bages?');
+let  web =prompt('do i prefer to design complex web bages?');
  web=web.toLowerCase();
 if (web=="yes" ||web=="y") {alert("it will take time");}
    // console.log("it will take time");}
@@ -26,16 +26,16 @@ else if (web=="no"||web=="n") {alert ("it will not take time");}
     //console.log("it will not take time");} 
 
 
-let business =prompt('does  your business depend on these web bages?');
+let business =prompt('does  my  business depend on these web bages?');
  business=business.toLowerCase();
 if (business=="yes" ||business=="y") {
-    alert("it will take time");}
-   // console.log("it will take time");}
-else if (business=="no"||business=="n") { alert ("it will not take time");} 
-    //console.log("it will not take time");} 
+    alert("yes it is a business");}
+   // console.log("yes it is a business");}
+else if (business=="no"||business=="n") { alert ("you are wrong");} 
+    //console.log("you are wrong");} 
 
 
-let pay =prompt('can you pay more than 500 dinars? ');
+let pay =prompt("Do you think I am getting more than 500? ");
 pay=pay.toLowerCase();
 if (pay=="yes" ||pay=="y") {alert("you will git agreat job");}
     //console.log("you will git agreat job");}
@@ -43,7 +43,7 @@ else if (pay=="no"||pay=="n") {alert ("iam soory to hear that");}
     //console.log("iam soory to hear that");} 
 
 
-let work =prompt('do you prefre to work with professionals');
+let work =prompt('am i professional in my work?');
  work=work.toLowerCase();
 if (work=="yes" ||work=="y") { // console.log("you will get it");}
     alert("you will get it");}
