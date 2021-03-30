@@ -12,7 +12,7 @@ let  ex = prompt('do i have software experience?');
  ex=ex.toLowerCase();
 if (ex=="yes" || ex=="y") { 
    // console.log("good");}
-   alert("good");}
+   alert("you will be surprised");}
 else if (ex=="no"||ex=="n") {
    // console.log("dont worry");} 
    alert("dont worry");}
@@ -35,7 +35,7 @@ else if (business=="no"||business=="n") { alert ("you are wrong");}
     //console.log("you are wrong");} 
 
 
-let pay =prompt("Do you think I am getting more than 500? ");
+let pay =prompt("Do you think I am getting more than 200 jd? ");
 pay=pay.toLowerCase();
 if (pay=="yes" ||pay=="y") {alert("you will git agreat job");}
     //console.log("you will git agreat job");}
@@ -51,3 +51,9 @@ if (work=="yes" ||work=="y") { // console.log("you will get it");}
 else if (work=="no"||work=="n") { alert("our students will help you")};
     //console.log("our students will help you");} 
 
+
+    
+   alert ("welcome "+ userName );
+
+
+   
