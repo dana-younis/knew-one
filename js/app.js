@@ -10,40 +10,57 @@ var gopher = 1;
 
 let score = 0;
 
+
+
 let experience = prompt(" do i have software experience?");
 experience = experience.toLowerCase();
+function software(experience) {
 if (experience == "yes" || experience == "y") { alert("i wish"); }
 else if (experience == "no" || experience == "n") { alert("unfortunately");score++; }
 else { alert(" please choose yes or no"); }
+return(experience);}
+software();
+
 
 
 let web= prompt("do i prefer to design complex web bages?");
 web=web.toLowerCase();
+function design(web) {
 if (web == "yes" || web == "y") { alert("it will take time");score++; }
 else if (web == "no" || web == "n") {alert ("it will not take time"); }
 else { alert(" please choose yes or no"); }
+return(web);}
+design();
+
 
 
 let business =prompt('does  my  business depend on these web bages?');
  business=business.toLowerCase();
+ function mony(business) {
  if (business == "yes" || business == "y") { alert("yes it is a business"); score++;}
  else if (business == "no" ||business== "n") {alert ("you are wrong"); }
  else { alert(" please choose yes or no"); }
+ return(business);}
+ mony();
 
 
  let pay =prompt("Do you think I am getting more than 200 jd? ");
  pay=pay.toLowerCase();
+ function job(pay) {
  if (pay == "yes" || pay == "y") { alert("you will git agreat job");score++; }
  else if (pay == "no" || pay== "n") {alert("iam soory to hear that"); }
- else { alert(" please choose yes or no"); }
+ else { alert(" please choose yes or no"); }return(pay);}
+ job();
 
 
 
 let work =prompt('am i professional in my work?');
  work=work.toLowerCase();
+ function help(work) {
  if (work == "yes" || work== "y") {  alert("you will get it");score++;}
  else if (work == "no" || work== "n") {alert("our students will help you"); }
- else { alert(" please choose yes or no"); }
+ else { alert(" please choose yes or no"); }return(work);}
+ help();
 
 
 
@@ -58,19 +75,28 @@ for(let i=0;i<3;i++){
     number=prompt("try again it is lower");}}
 
 alert("it was number 7"); 
-   
 
 
 
+
+
+
+
+
+
+  let i=0;
   let city= prompt(" what do you think my favorite country?") ;
+
   console.log(city);
+
   let countries=["Ireland " , "South Africa " ," Canada " ,"Sweden ","Romania","  Italy ","turkey ", "greece "];
-        console.log(countries);
+        
+    console.log(countries[i]);
 
   for(let i=0;i<5;i++){
-      if (countries==city) {console.log( city);
+      if (countries[i]==city) {console.log( city);
         alert("i wish i could live there"); score++;break; }
-      else if (city !=countries){console.log( city);
+      else if (city !=countries[i]){console.log( city);
         city=prompt("try again it is wrong");}}
         
 
