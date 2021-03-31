@@ -3,6 +3,10 @@ let userName = prompt("what\'s your name?");
 console.log(userName);
 let age = prompt("what\'s your age?");
 alert("hi " + userName + age);
+var gopher = 1;
+
+
+
 
 let score = 0;
 
@@ -46,7 +50,7 @@ let work =prompt('am i professional in my work?');
 let number=prompt("what is my preferred number from 1 to 10?");
  console.log(number);
 let perfer=7;
-for(let i=0;i<5;i++){
+for(let i=0;i<3;i++){
   if (number==perfer) {alert("yes you are right i really prefer it");score++; break; }
   else if (number>perfer){console.log(number);
           number=prompt("try again it is higher");}
@@ -63,7 +67,7 @@ alert("it was number 7");
   let countries=["Ireland " , "South Africa " ," Canada " ,"Sweden ","Romania","  Italy ","turkey ", "greece "];
         console.log(countries);
 
-  for(let i=0;i<7;i++){
+  for(let i=0;i<5;i++){
       if (countries==city) {console.log( city);
         alert("i wish i could live there"); score++;break; }
       else if (city !=countries){console.log( city);
@@ -72,6 +76,14 @@ alert("it was number 7");
 
          alert(countries); 
          alert(score);
+
+
+
+
+
+
+
+
      
 
     
