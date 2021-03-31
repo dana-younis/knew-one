@@ -9,4 +9,4 @@ graduated from al Hussein bin tall university and i am 23 years old
 
 - Abdulmajjed was Navigator on: https://github.com/abdulmajjed/aboutme-game/pull/1
 
-- dana was Driver on: 
+- dana was Driver on: https://github.com/abdulmajjed/aboutme-game/pull/1
