@@ -1,45 +1,58 @@
 h1{display: inline;
-    width: 500px;
-  padding: 10px;
-  border: 5px solid gray;
+  width: 500px;
+padding: 10px;
+border: 5px solid gray;
+outline: hsl(347, 96%, 48%) solid 12px;
+text-decoration: overline;
+font-size: 77px;
+text-shadow: 3px 2px red;
+margin-bottom:  4%;
+
+
+}
+
+
+p{font-size: 30px;
+  color: blue;
+  margin:  10%;
+  background-color: rgb(247, 189, 189);
+
+}
+
+ ol li { list-style:upper-alpha;
+  font-size: 25px;
+  color:blue;
+  margin:  2%;
+  font-style: oblique;
+  list-style-type: decimal;
   
-  font-size: 77px;
-  margin-bottom:  4%;}
+}
+ h2{
+  font-size: 30px;
+  color:blue;
+  background-color: rgb(247, 189, 189);
+  margin:  2%;
+  outline: hsl(347, 96%, 48%) solid 12px;
+  text-shadow: 1px 1px red;
+ }
 
 
-  p{font-size: 30px;
-    color: blue;
-    margin:  10%;
-    background-color: rgb(247, 189, 189);
+ h3{ font-size: 30px;
+  color:blue;
+  margin:  2%;
+  background-color: rgb(247, 189, 189);
+  outline: hsl(347, 96%, 48%) solid 12px;
+  text-shadow: 1px 1px red;
+  
 
-  }
-
-   ol li { list-style:upper-alpha;
-    font-size: 25px;
-    color:blue;
-    margin:  2%;
-  }
-   h2{
-    font-size: 30px;
-    color:blue;
-    background-color: rgb(247, 189, 189);
-    margin:  2%;
-   }
-
-
-   h3{ font-size: 30px;
-    color:blue;
-    margin:  2%;
-    background-color: rgb(247, 189, 189);
-
-   }
+ }
 
 
 
-   h4 ul li { font-size: 25px;
-    color:blue;
-    margin:  2%;
-    
-    list-style: square;
-
-   }
+ h4 ul li { font-size: 25px;
+  color:blue;
+  margin:  2%;
+  font-style: oblique;
+  list-style: square; 
+  
+ }
